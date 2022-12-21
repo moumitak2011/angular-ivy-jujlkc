@@ -1,0 +1,14 @@
+<ul>
+  <li>
+    <a routerLink="/user-info" routerLinkActive="active" class="active"
+      >User information</a
+    >
+  </li>
+  <li><a href="#news">About us</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right">
+    <span>{{ today | date: 'd MMMM YY' }}</span>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
